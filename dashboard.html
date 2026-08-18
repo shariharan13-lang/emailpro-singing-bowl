@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block title %}Soundtopia — World's Best Himalayan &amp; Crystal Singing Bowls{% endblock %}
+{% block content %}
+
+<div class="promo-bar">Enjoy 15% off Etherealite!</div>
+
+<header class="store-header">
+  <div class="topline">
+    <span class="topline-left">World's Largest Selection of <span class="dot">✺</span> Singing Bowls</span>
+    <nav class="topline-right">
+      <a href="#">Tuner</a>
+      <a href="#">Information</a>
+      <a href="#">Wholesale</a>
+      <a href="#">Gift Certificates</a>
+      <a href="#">Affiliate</a>
+    </nav>
+  </div>
+
+  <div class="main-header">
+    <div class="logo">
+      <span class="logo-mark">✺</span>
+      <div>
+        <div class="logo-name">Soundtopia</div>
+        <div class="logo-sub">Formerly Silver Sky Imports</div>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <input type="text" placeholder="Search the store" class="search-input">
+      <button class="search-btn" aria-label="Search">🔍</button>
+    </div>
+
+    <div class="header-actions">
+      <div class="phone-block">
+        <span class="phone-label">Call Us Toll Free USA &amp; Canada</span>
+        <span class="phone-number">📞 1.800.494.1369</span>
+      </div>
+      <div class="icon-action"><span>👤</span><span>Account</span></div>
+      <div class="icon-action"><span>💜</span><span>Wishlist</span></div>
+      <div class="icon-action"><span>🛒</span><span>Cart</span></div>
+    </div>
+  </div>
+
+  <nav class="category-nav">
+    <a href="#">Crystal Singing Bowls</a>
+    <a href="#">Himalayan Singing Bowls</a>
+    <a href="#">Rattles and Chimes</a>
+    <a href="#">Tuning Forks</a>
+    <a href="#">Drums</a>
+    <a href="#">Gongs</a>
+    <a href="#">Sales and Specials</a>
+    <a href="#">Unique Gifts</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">New Design · Save 15%</p>
+      <h1>Etherealite<br>Chakra Collection</h1>
+      <p class="hero-tagline">Sound that speaks. Color that whispers.</p>
+      <a href="#shop" class="hero-cta">see what's inside →</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-bowl"></div>
+      <div class="chakra-dots">
+        <span style="--c:#4d6fd6"></span>
+        <span style="--c:#38b6ff"></span>
+        <span style="--c:#c76bd6"></span>
+        <span style="--c:#e35b5b"></span>
+        <span style="--c:#5fbf6b"></span>
+        <span style="--c:#f0a63a"></span>
+        <span style="--c:#f0c93a"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo-cards">
+    <div class="promo-card gem">
+      <h3>Custom Gemstone Fusion<br>Crystal Singing Bowls</h3>
+      <p class="promo-sub">Handcrafted · Customizable · One of a Kind</p>
+    </div>
+    <div class="promo-card mala">
+      <h3>Handmade Malas By</h3>
+      <p class="promo-brand">ARITAKI</p>
+      <p class="promo-sub">Lead with Intention. Desire with Purpose.</p>
+    </div>
+    <div class="promo-card solfeggio">
+      <h3>Solfeggio Singing<br>Bowl Sets</h3>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="benefit">
+      <div class="badge">Since<br><strong>2002</strong></div>
+      <p>20+ Years of Experience</p>
+    </div>
+    <div class="benefit">
+      <div class="badge">↺</div>
+      <p>30-Day Hassle-Free Returns</p>
+    </div>
+    <div class="benefit">
+      <div class="badge">✓</div>
+      <p>High Quality Hand Crafted Products</p>
+    </div>
+  </section>
+
+  <section id="shop" class="shop-categories">
+    <h2>Shop Categories</h2>
+    <div class="category-grid">
+      <div class="category-card"><div class="cat-img cat-crystal"></div><p>Crystal Singing Bowls</p></div>
+      <div class="category-card"><div class="cat-img cat-himalayan"></div><p>Himalayan Singing Bowls</p></div>
+      <div class="category-card"><div class="cat-img cat-bells"></div><p>Bells and Chimes</p></div>
+      <div class="category-card"><div class="cat-img cat-chakra"></div><p>Chakra Drums and Tuning Forks</p></div>
+      <div class="category-card"><div class="cat-img cat-gongs"></div><p>Gongs</p></div>
+      <div class="category-card"><div class="cat-img cat-drums"></div><p>Drums</p></div>
+    </div>
+  </section>
+
+  <section class="dashboard-link">
+    <a href="{{ url_for('dashboard') }}" class="dashboard-btn">Open EmailPro Lead Dashboard →</a>
+  </section>
+</main>
+
+<footer class="store-footer">
+  <p>&copy; 2026 Soundtopia. All rights reserved.</p>
+</footer>
+
+{% endblock %}
